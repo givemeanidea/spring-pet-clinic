@@ -1,2 +1,2 @@
 # spring-pet-clinic
-Creation of spring pet clinic based on "beginner to guru" spring 5 couse on Udemy
+Creation of spring pet clinic based on "Beginner to Guru" Spring 5 course on Udemy.

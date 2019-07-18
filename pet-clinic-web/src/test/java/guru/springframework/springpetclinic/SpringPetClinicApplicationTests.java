@@ -1,4 +1,4 @@
-package springpetclinic;
+package guru.springframework.springpetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,5 +12,4 @@ public class SpringPetClinicApplicationTests {
     @Test
     public void contextLoads() {
     }
-
 }

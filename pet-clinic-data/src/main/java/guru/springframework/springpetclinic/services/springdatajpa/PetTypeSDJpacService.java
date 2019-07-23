@@ -3,10 +3,14 @@ package guru.springframework.springpetclinic.services.springdatajpa;
 import guru.springframework.springpetclinic.model.PetType;
 import guru.springframework.springpetclinic.repositories.PetTypeRepository;
 import guru.springframework.springpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Service
+@Profile("springdatajpa")
 public class PetTypeSDJpacService implements PetTypeService {
 
     private final PetTypeRepository petTypeRepository;
